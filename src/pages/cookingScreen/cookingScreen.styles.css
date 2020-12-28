@@ -1,0 +1,28 @@
+.nav-bar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(133, 133, 133);
+}
+
+.main-body{
+    height: calc(100vh - 60px);
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-between;
+}
+
+.section{ 
+    background-color: rgb(199, 199, 199);
+    flex: 1 1 0;
+    margin: 20px 20px 20px 0px;
+}
+
+.stove{
+    flex: 3 2 0;
+}
+
+.section:first-child{
+    margin-left: 20px;
+}

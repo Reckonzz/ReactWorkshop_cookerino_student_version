@@ -1,0 +1,73 @@
+.dancing-robot-container{
+    transition: all 0.3s ease;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+    overflow: hidden;
+}
+
+.dancing-robot{
+    width: 250px;
+    margin: auto;
+}
+
+.dr-screen-desc{
+    width: 250px;
+    margin: auto;
+}
+
+.logo-3dc{
+    width: 150px;
+    margin:auto;
+    margin-bottom: -30px;
+    margin-top: 30px;
+}
+
+.start-button{
+    font-size: 2rem;
+    outline: none;
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 65px;
+    animation: 1s enterFromLeft forwards;
+}
+
+.start-button:hover .fire-logo{
+    opacity: 70%;
+}
+
+.fire-container{
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex: row nowrap;
+}
+
+
+
+.fire-logo{
+    opacity: 0%;
+    margin-left: -24px;
+    width: 50px;
+    transition: all 0.3s ease;
+}
+
+.fire-logo:last-child{
+    margin-right: -24px;
+}
+
+
+@keyframes enterFromLeft{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 100%;
+    }
+}
