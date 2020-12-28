@@ -5,6 +5,7 @@
     position: absolute;
     background-color: white;
     overflow: hidden;
+    z-index: 3;
 }
 
 .dancing-robot{
