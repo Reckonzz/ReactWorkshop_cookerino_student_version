@@ -7,7 +7,7 @@ import Ingredient from "./ingredients/ingredients"
 const IngredientsSection = (props) => {
     return (
         <div className="section ingredients-container"> 
-            {props.ingredients.map((el) => <Ingredient addIngredient={props.addIngredient} imgSrc={el.imgSrc}/>)}
+            {props.ingredients.map((ingInfo, idx) => <Ingredient key={idx} addIngredient={props.addIngredient} ingInfo={ingInfo}/>)}
         </div>
     )
 }

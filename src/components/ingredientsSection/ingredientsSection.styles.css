@@ -1,0 +1,6 @@
+.ingredients-container{
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 1.4rem;
+    justify-content: flex-start;
+}

@@ -5,7 +5,7 @@ import "./ingredients.styles.css"
 const Ingredient = (props) => {
     return (
         <div className="ingredient">
-            <img src={props.imgSrc} onClick={() => props.addIngredient(props.imgSrc)}/>
+            <img src={props.ingInfo.imgSrc} onClick={() => props.addIngredient(props.ingInfo)}/>
         </div>
     )
 }

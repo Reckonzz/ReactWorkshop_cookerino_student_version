@@ -1,0 +1,48 @@
+.ingredient-box{
+    z-index: 2;
+    background-color: rgb(214, 214, 214);
+    /* border: 3px solid black; */
+    box-shadow: 3px 2px 3px grey ;
+    flex: 1 1 0;
+    margin: 10px 10px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ingredient-box:first-child{
+    margin-left: 35px;
+}
+
+.ingredient-box:last-child{
+    margin-right: 35px;
+}
+
+.ingredient-box img{
+    width:50px;
+    margin: auto;
+}
+
+.ingredient-box:hover{
+    background-color: rgb(255, 217, 217);
+}
+
+.ingredient-box:hover img{
+    animation: 0.5s shake alternate;
+}
+
+@keyframes shake{
+    0%{ 
+        transform: rotate(0deg)
+    }
+    25%{
+        transform: rotate(20deg) scale(1.05)
+    }
+    75%{
+        transform: rotate(-20deg) scale(1.1)
+    }
+    100%{ 
+        transform: rotate(0deg) scale(1.0)
+    }
+}
