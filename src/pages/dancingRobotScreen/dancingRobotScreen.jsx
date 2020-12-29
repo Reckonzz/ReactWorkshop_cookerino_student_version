@@ -12,7 +12,9 @@ const DancingRobotScreen = (props) => {
     let goToCookingScreen = () => {
         let robotScreen = document.querySelector('.dancing-robot-container')
         robotScreen.style.opacity = "0%";
+        setTimeout(()=>props.toggleAtCookingPage(), 300)
     }
+
     return(
         <div className="dancing-robot-container">
             <img className="logo-3dc" src={logo} alt="3dc logo"></img>
@@ -32,7 +34,8 @@ const DancingRobotScreen = (props) => {
                 <button onClick={goToCookingScreen} className="start-button">
                     <span>I was born ready</span>
                     <div className="fire-container">
-                    {fires.map(_ => <Spritesheet
+                    {fires.map((el,idx) => <Spritesheet
+                        key = {idx}
                         className="fire-logo"
                         image={fire_logo}
                         widthFrame={64}

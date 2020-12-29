@@ -1,0 +1,13 @@
+.ingredient{
+    flex: 0 1 0;
+    margin: 10px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+.ingredient > img{
+    max-height: 100px;
+    min-height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}

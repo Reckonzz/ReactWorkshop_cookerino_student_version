@@ -1,22 +1,18 @@
-.nav-bar{
-    height: 60px;
-    width: 100%;
-    background-color: rgb(216, 216, 216);
-}
-
 .main-body{
-    height: calc(100vh - 60px);
+    height: calc(100vh);
     width: 100%;
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex: row nowrap;
     justify-content: space-between;
+    padding-top: 70px;
 }
 
 .section{ 
-    background-color: rgb(199, 199, 199);
+    background-color: #d3dce1;
     flex: 1 1 0;
-    margin: 20px 20px 20px 0px;
+    margin: 0px 20px 20px 0px;
+    border-radius: 5px;
 }
 
 .stove{
@@ -28,6 +24,7 @@
 .stove-img{
     margin: auto;
     width: 400px;
+    object-fit: cover;
 }
 
 .ingredients-boxes-container{
@@ -41,7 +38,7 @@
 
 .ingredient-box{
     z-index: 2;
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(201, 201, 201);
     flex: 1 1 0;
     margin: 10px 10px 10px 0px;
 }
@@ -54,11 +51,16 @@
     margin-right: 35px;
 }
 
+
+
 .cooked-delicacy{
-    width: 150px;
-    height: 150px;
+    height: 100%;
+    min-width: 150px;
+    min-height: 100px;
+    max-height: 150px;
     background-color: rgb(114, 114, 114);
     margin:auto;
+    margin-top: 20px;
 }
 
 .cook-btn{
@@ -88,11 +90,21 @@
 .ingredients-container{
     display: flex;
     flex-flow: column nowrap;
+    font-size: 1.4rem;
+    justify-content: flex-start;
 }
 
 .ingredient{
-    background-color: grey;
-    flex: 1 1 0;
+    flex: 0 1 0;
     margin: 10px;
-    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
 }
+
+.ingredient > img{
+    max-height: 100px;
+    min-height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+

@@ -1,0 +1,9 @@
+.navItem{
+    font-size: 0.9rem;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.navItem:hover{
+    background-color: rgb(236, 234, 234);
+}

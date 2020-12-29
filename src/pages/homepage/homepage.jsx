@@ -15,9 +15,13 @@ const Homepage = () => {
         setShowStartButton(true)
     }
 
+    const toggleAtCookingPage = () => {
+        setAtCookingPage(true)
+    }
+
     return (
-        <div>
-            {atCookingPage ? "" : <DancingRobotScreen showStartButton = {showStartButton}/>}
+        <div className="home-page">
+            {atCookingPage ? "" : <DancingRobotScreen toggleAtCookingPage={toggleAtCookingPage} showStartButton = {showStartButton}/>}
             {showStartButton ? "" : <LandingScreen toggleStartState = {toggleStartState}/>}
             <CookingScreen/>
         </div>
