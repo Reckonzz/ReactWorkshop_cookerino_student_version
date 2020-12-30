@@ -16,7 +16,7 @@
     border: 2px solid white;
     border-radius: 5px;
     outline: none;
-    margin: auto;
+    margin-top: 10px;
     background-color: transparent;
     cursor: pointer;
 }
@@ -29,6 +29,7 @@
     display: block;
     animation: 0.3s vibrate infinite;
 }
+
 @keyframes vibrate{
     0%{ 
         transform: rotate(0deg)
@@ -50,6 +51,8 @@
     flex: 3 2 0;
     display: flex;
     flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .stove-img{
