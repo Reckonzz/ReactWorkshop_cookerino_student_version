@@ -70,7 +70,6 @@
 
 .detailed-info{
     padding-top: 20px;
-    padding-bottom: 20px;
     font-size: 1.1rem;
     background-color: rgba(217, 255, 212, 0.651);   
 }
@@ -78,14 +77,20 @@
 .detailed-info-text{
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 .imageContainer{
-    max-width: 1280px;
+    max-width: 1180px;
     margin: auto;
 }
 
 .detailed-info img{
     width: 100%;
     object-fit: cover;
+}
+
+.endpic{
+    width: 80%;
+    padding-bottom: 20px;
 }

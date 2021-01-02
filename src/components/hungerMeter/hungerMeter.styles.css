@@ -23,5 +23,6 @@
     background-color:rgb(54, 189, 54);
     transform-origin:bottom center;
     transition: all 0.3s ease;
+    transform: scaleY(0);
 }
 
