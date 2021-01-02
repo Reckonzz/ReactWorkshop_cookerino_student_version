@@ -5,6 +5,8 @@ import "./homepage.styles.css"
 import LandingScreen from "../landingScreen/landingScreen"
 import DancingRobotScreen from "../dancingRobotScreen/dancingRobotScreen"
 import CookingScreen from "../cookingScreen/cookingScreen"
+import InstructionPage from "../instructionPage/instructionPage"
+
 
 
 const Homepage = () => {
@@ -23,6 +25,7 @@ const Homepage = () => {
         <div className="home-page">
             {atCookingPage ? "" : <DancingRobotScreen toggleAtCookingPage={toggleAtCookingPage} showStartButton = {showStartButton}/>}
             {showStartButton ? "" : <LandingScreen toggleStartState = {toggleStartState}/>}
+            {atCookingPage ? <InstructionPage/> : ""}
             <CookingScreen/>
         </div>
     )
