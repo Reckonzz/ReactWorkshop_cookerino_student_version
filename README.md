@@ -9,7 +9,7 @@ https://docs.anaconda.com/anaconda/install/
 We have to install nodejs to start developing React apps, lets go! 
 
 ### Installing Nodejs 
-To install Nodejs, you can use the link below and click the option depending on your computer system 
+To install Nodejs, you can use the link below and click the option depending on your computer system and go with the default options
 
 https://nodejs.org/en/ (Windows and MacOS)
 
