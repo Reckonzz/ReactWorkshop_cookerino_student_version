@@ -18,8 +18,7 @@ For homebrew users (macOS)
 
 To check if it is installed properly 
 - Open your terminal (macOS) or command prompt (windows )
-- run: npm --version or node --version 
-- npm version 6.14.10 or node version 14.15.4 respectively. (Any later version will work fine)
+- run: npm --version or node --version and check that you have a working version of nodejs
 
 ### Installing Visual Studio Code 
 If you have already been coding and have your favourite code editor then feel free to use your preferred code editor of choice!
