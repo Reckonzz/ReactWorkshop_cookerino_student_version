@@ -30,7 +30,7 @@ You can download it in the link below and choose the option based on your comput
 https://code.visualstudio.com/download
 
 ### Checking if you can run React 
-This is an important step, if this works for you you are good to go for the workshop on friday :)
+This is to check if everything is installed properly and functioning, if this works for you you are good to go for the workshop on friday :)
 
 1. Go to any folder you want to save your file in 
 2. navigate to that file path in your command prompt or terminal and run npx create-react-app first-react-app (This will usually take a while to complete)
