@@ -12,15 +12,17 @@ We have to install nodejs to start developing React apps, lets go!
 To install Nodejs, you can use the link below and click the option depending on your computer system 
 
 https://nodejs.org/en/ (Windows and MacOS)
+
 For homebrew users (macOS)
-    * Brew Install node 
+- Brew Install node 
+
 To check if it is installed properly 
-    * Open your terminal (macOS) or command prompt (windows )
-    * run: npm --version or node --version 
-    * npm version 6.14.10 or node version 14.15.4 respectively. (Any later version will work fine)
+- Open your terminal (macOS) or command prompt (windows )
+- run: npm --version or node --version 
+- npm version 6.14.10 or node version 14.15.4 respectively. (Any later version will work fine)
 
 ### Installing Visual Studio Code 
-If you have already been coding and have your favourite code editor then feel free to use your preferred code editor of choice!\
+If you have already been coding and have your favourite code editor then feel free to use your preferred code editor of choice!
 
 However, if you want some swag, download Visual Studio Code to help you write some awesome code :)
 
