@@ -5,24 +5,29 @@
     top: 0px; 
     left: 0px;
     z-index: 3;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .landing-screen-bg{
-    background-color: rgb(94, 4, 106);
-    box-sizing: content-box;
-    width: 100%;
-    height: 100vh;
+    position: absolute;
+    background-color: rgb(12, 12, 12);
+    background-image: linear-gradient(
+        rgb(255, 238, 0),
+        #203a43,
+        hsl(286, 81%, 45%));
+    box-sizing: border-box;
+    width: 3000px;
+    height: 3000px;
     color: #fff;
-    /* background: linear-gradient(-45deg, #eb8f73, #e46193, #23A605, #2305AB);
-    background-size: 400% 400%;
-    position: relative;
-    animation: change 10s ease-in-out infinite;
-    transition: all 2s ease;  */
+    animation: change 8s linear infinite;
 }
 
 .landing-screen-button{
     font-size: 2.5rem;
-    background-color: transparent;
+    background-color: rgba(128, 128, 128, 0.19);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -38,21 +43,21 @@
 }
 
 .landing-screen-button-hover:hover{
-    /* background-color: rgba(255, 255, 255, 0.904); */
+    background-color: rgba(255, 255, 255, 0);
     transform: translate(-50%, -50%) scale(0.95);
-    color: rgb(85, 255, 218);
-    border: 3px solid rgb(85, 255, 218);
+    color: rgb(255, 247, 0);
+    border: 3px solid rgb(255, 247, 0);
 }
 
 @keyframes change {
     0%{
-        background-position: 0 50%;
+        transform: rotate(0deg);
     }
-    50%{
-        background-position: 100% 50%; 
+    40%{ 
+        transform: rotate(180deg) scale(1.5);
     }
     100%{
-        background-position: 0 50%;
+        transform: rotate(360deg);
     }
 }
 
@@ -62,7 +67,7 @@
         
     }
     80%{
-        transform: translateY(-80px);
+        transform: scale(2) translateY(-80px);
         opacity: 0%;
     }
     100%{

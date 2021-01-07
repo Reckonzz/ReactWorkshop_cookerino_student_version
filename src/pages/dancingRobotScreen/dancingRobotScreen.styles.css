@@ -1,8 +1,9 @@
 .dancing-robot-container{
     transition: all 0.3s ease;
     position: absolute;
+    top: 0px;
+    left: 0px;
     width: 100vw;
-    max-width: 1280px;
     height: 100vh;
     background-color: white;
     overflow: hidden;

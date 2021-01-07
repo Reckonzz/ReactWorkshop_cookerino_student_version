@@ -3,6 +3,7 @@ import React from 'react'
 import "./landingScreen.styles.css"
 
 const LandingScreen = (props) => {
+
     let handleStartApp = () => {
         let container = document.querySelector('.landing-screen-container')
         let startButton = document.querySelector('.landing-screen-button')
@@ -13,9 +14,9 @@ const LandingScreen = (props) => {
     }
     return(
         <div className="landing-screen-container">
-            <div className="landing-screen-bg">
-                <button className="landing-screen-button landing-screen-button-hover" onClick={handleStartApp}>Cookerino</button>
-            </div> 
+            <div className="landing-screen-bg"></div> 
+            <button className="landing-screen-button landing-screen-button-hover" onClick={handleStartApp}>Cookerino</button>
+            
         </div>
     )
 }
