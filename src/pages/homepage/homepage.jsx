@@ -1,4 +1,4 @@
-import React, {useState, } from "react"
+import React, { useState } from "react"
 
 import "./homepage.styles.css"
 
@@ -6,8 +6,6 @@ import LandingScreen from "../landingScreen/landingScreen"
 import DancingRobotScreen from "../dancingRobotScreen/dancingRobotScreen"
 import CookingScreen from "../cookingScreen/cookingScreen"
 import InstructionPage from "../instructionPage/instructionPage"
-
-
 
 const Homepage = () => {
     const [showStartButton, setShowStartButton] = useState(false)
